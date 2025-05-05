@@ -4,7 +4,7 @@ metadata:
   name: nginx-lb
 spec:
   type: LoadBalancer
-  selectors:
+  selector:
     environment: dev
     project: expense
     module: backend 
