@@ -5,7 +5,7 @@ metadata:
 spec:
   storageClassName: "expense-efs-sc" # Empty string must be explicitly set otherwise default StorageClass will be set
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 3Gi
